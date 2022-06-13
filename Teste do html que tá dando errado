@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário para cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/undraw_shopping_re_hdd9.svg">
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastra-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="#">entrar</a></button>
+
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firtsname">Primeiro nome</label>
+                            <input type="text" id="firtsname" name="firsname" placeholder="digite seu primeiro nome" required>
+
+                        </div>
+                        <div class="input-box">
+                            <label for="lastname">sobrenome</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail </label>
+                            <input type="email" id="email" name="email" placeholder="digite seu email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="number">celular</label>
+                            <input type="tel" id="number" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">senha</label>
+                            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="confirmpassword">confirme sua senha</label>
+                            <input type="confirmpassword" id="password" name="confirmpassword" placeholder="Digite sua senha" required>
+                        </div>
+                    </div>
+                    <div class="gender-inputs">
+                        <div class="gender-tittle">
+                            <h6>Gênero</h6>
+                        </div>
+                        <div class="gender-group">
+                            <div class="gender-input>">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Feminino</label>
+                            </div>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input>">
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Masculino</label>
+                            </div>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input>">
+                                <input type="radio" name="gender" id="others">
+                                <label for="others">Outros</label>
+                            </div>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input>">
+                                <input type="radio" name="gender" id="none">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="continue-button">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html> 
